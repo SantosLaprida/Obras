@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="ObrasAvalonia.Views.Login">
+	<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="10">
+
+		<!-- Username -->
+		<TextBox Width="200" Watermark="Username" Name="UsernameTextBox"/>
+
+		<!-- Password -->
+		<TextBox Width="200" Watermark="Password" Name="PasswordTextBox" PasswordChar="*"/>
+
+		<!-- Language Selection -->
+		<ComboBox Width="200" Name="LanguageComboBox">
+			<ComboBoxItem>English</ComboBoxItem>
+			<ComboBoxItem>Español</ComboBoxItem>
+			<!-- Add other languages as needed -->
+		</ComboBox>
+
+		<!-- Login Button -->
+		<Button Width="200" Content="Login" Click="LoginButton_Click"/>
+	</StackPanel>
+</UserControl>

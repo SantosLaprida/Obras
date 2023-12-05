@@ -1,0 +1,290 @@
+<UserControl xmlns:res="clr-namespace:ObrasAvalonia.Assets" 
+			 xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 x:Class="ObrasAvalonia.TopMenu">
+	<Menu>
+		<MenuItem Header="{x:Static res:Resources.MenuEmpresa}">
+
+			<!-- Main Menu: Empresa -->
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuNueva}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuAbrir}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuCerrar}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuTipoDeCambio}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuUsuarios}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuAdministrador}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuModificarClave}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuSalir}"/>
+		</MenuItem>
+
+		<!-- Main Menu end: Empresa -->
+
+		<MenuItem Header="{x:Static res:Resources.MenuClientes}">
+
+			<!-- Main Menu: Clientes -->
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuFacturacion}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuEmitirFactura}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuProyectos}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuListarFacturas}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuCobranzas}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuEmitirRecibo}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuListarRecibos}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuSaldos}">
+				<MenuItem Header="{x:Static res:Resources.MenuClientes}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuObras}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoPorCliente}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoPorObra}"/>
+			</MenuItem>
+
+			<!-- Main Menu end: Clientes -->
+			
+		</MenuItem>
+		<MenuItem Header="{x:Static res:Resources.MenuAdministracion}">
+
+			<!-- Main Menu: Adminsitracion -->
+
+			<MenuItem Header="{x:Static res:Resources.SubMenuCaja}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuPeriodosDeCaja}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuMonedaLocal}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuSaldo}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoDeCaja}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuCarteraDeCheques}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuMonedaExtranjera}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuSaldo}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoDeCaja}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuAportes}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCompraDeMonedaExtranjera}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuComprar}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuListarCompras}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuVentaDeMonedaExtranjera}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuVender}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuListarVentas}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuFideicomisosDeMonedaExtranjera}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCotizaciones}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuEntidadesFinancieras}">
+				
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuDepositos}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuDepositos}">
+						<MenuItem Header="{x:Static res:Resources.SubMenuEfectivo}"/>
+						<MenuItem Header="{x:Static res:Resources.SubMenuValores}"/>
+					</MenuItem>
+					<MenuItem Header="{x:Static res:Resources.SubMenuListarDepositos}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCheques_Extracciones}">
+
+					<MenuItem Header="{x:Static res:Resources.SubMenuEmitirCheque}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuListarCheques}"/>
+					
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuTransferencias}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuEmitirTransferencia}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuListarTransferencias}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuDebitosVarios}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuSaldos}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuSaldoDeBancos}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoDeCuenta}"/>
+				</MenuItem>
+
+				<!-- Main Menu end: Adminsitracion -->
+				
+			</MenuItem>
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuGastosGenerales}">
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuAgregarFactura}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuFacturas}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPagos}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuInformes}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuGeneral}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorCentroDeCosto}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorCuenta}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuInformesAnuales}">
+						<MenuItem Header="{x:Static res:Resources.SubMenuReal}"/>
+						<MenuItem Header="{x:Static res:Resources.SubMenuProyectado_Real}"/>
+					</MenuItem>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuSaldos}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuGeneral}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorCentroDeCosto}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorCuenta}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorSubCuenta}"/>
+				</MenuItem>
+				
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuImpuestos}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuIva}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuPosicionIva}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuCompras}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuRetenciones}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuIngresosBrutos}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuGestion}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuReporteEconomico}"/>
+				
+			</MenuItem>
+		</MenuItem>
+		<MenuItem Header="{x:Static res:Resources.MenuProyectos}">
+
+			<!-- Main Menu: Proyectos -->
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuMateriales}">
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDeCompra}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDePago}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuDebitosInternos}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuFacturas}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPagos}"/>
+			
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuManoDeObra}">
+							
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDeCompra}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDePago}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCertificados}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPagos}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPlanillaDeCarga}"/>
+				
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuSubcontratos}">
+
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDeCompra}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDePago}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCertificados}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPagos}"/>
+				
+				
+				
+				
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuCostosIndirectos}">
+				
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDeCompra}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuOrdenesDePago}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuFacturas}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPagos}"/>
+
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuInformes}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuGeneral}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuEconomico}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuFinanciero}"/>
+					
+
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuPorObra}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuEconomico}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuFinanciero}"/>
+				</MenuItem>
+				
+
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuSaldosDe___}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuObras}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuProveedores}"/>
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuMovimientoDeProveedores}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuControlDeGestion}">
+				
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuProduccion}"/>
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuAvanceDeObra}">
+
+					<MenuItem Header="{x:Static res:Resources.SubMenuGeneral}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuPorObra}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuAvanceMensual}"/>
+
+				</MenuItem>
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuSituacionDeObra}"/>
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuProyeccion}">
+
+					<MenuItem Header="{x:Static res:Resources.SubMenuProyeccionGeneral}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuProyeccionPorObra}"/>
+					
+				</MenuItem>
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuIngresosYEgresosPorObra}"/>
+				
+				
+				
+			</MenuItem>
+			<MenuItem Header="{x:Static res:Resources.SubMenuEconomia}">
+				<MenuItem Header="{x:Static res:Resources.SubMenuSituacionDeVentas}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuSituacionDeCompras}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuResultadosPorObra}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuCashFlow}"/>
+			</MenuItem>
+
+			<!-- Main Menu end: Proyectos -->
+			
+		</MenuItem>
+		
+		<MenuItem Header="{x:Static res:Resources.MenuGestionDeMateriales}">
+
+			<!-- Main Menu: Gestion de materiales -->
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuAdministradorDeMateriales}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuAcopios}">
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuListar}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuAgregar}"/>
+				
+			</MenuItem>
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuRemitos}">
+
+				<MenuItem Header="{x:Static res:Resources.SubMenuDeProveedores}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuListar}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuAgregarRemito}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuInternos}">
+					<MenuItem Header="{x:Static res:Resources.SubMenuListar}"/>
+					<MenuItem Header="{x:Static res:Resources.SubMenuAgregar}"/>
+				</MenuItem>
+				<MenuItem Header="{x:Static res:Resources.SubMenuInformes}"/>
+				
+				
+			</MenuItem>
+			
+			<MenuItem Header="{x:Static res:Resources.SubMenuConsumos}">
+				
+				<MenuItem Header="{x:Static res:Resources.SubMenuListar}"/>
+				<MenuItem Header="{x:Static res:Resources.SubMenuAgregar}"/>
+			</MenuItem>
+
+			<!-- Main Menu end: Gestion de materiales -->
+
+		</MenuItem>
+		
+		
+		<MenuItem Header="{x:Static res:Resources.MenuIdioma}">
+
+			<!-- Main Menu: Idioma -->
+
+			<MenuItem Header="{x:Static res:Resources.SubMenuEspañol}"/>
+			<MenuItem Header="{x:Static res:Resources.SubMenuIngles}"/>
+
+			<!-- Main Menu end: Idioma -->
+
+		</MenuItem>
+	</Menu>
+</UserControl>

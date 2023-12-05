@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MenuAdministracion" xml:space="preserve">
+    <value>Administracion</value>
+  </data>
+  <data name="MenuClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuEmpresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="MenuEntidadesGastosGenerales" xml:space="preserve">
+    <value>Gastos Generales</value>
+  </data>
+  <data name="MenuEntidadesGestion" xml:space="preserve">
+    <value>Gestion</value>
+  </data>
+  <data name="MenuGestionDeMateriales" xml:space="preserve">
+    <value>Gestion de Materiales</value>
+  </data>
+  <data name="MenuIdioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="MenuProyectos" xml:space="preserve">
+    <value>Proyectos</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SubMenuAbrir" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="SubMenuAcopios" xml:space="preserve">
+    <value>Acopios</value>
+  </data>
+  <data name="SubMenuAdministrador" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="SubMenuAdministradorDeMateriales" xml:space="preserve">
+    <value>Administrador de Materiales</value>
+  </data>
+  <data name="SubMenuAgregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="SubMenuAgregarFactura" xml:space="preserve">
+    <value>Agregar Factura</value>
+  </data>
+  <data name="SubMenuAgregarRemito" xml:space="preserve">
+    <value>Agregar Remito</value>
+  </data>
+  <data name="SubMenuAportes" xml:space="preserve">
+    <value>Aportes</value>
+  </data>
+  <data name="SubMenuAvanceDeObra" xml:space="preserve">
+    <value>Avance de Obra</value>
+  </data>
+  <data name="SubMenuAvanceMensual" xml:space="preserve">
+    <value>AvanceMensual</value>
+  </data>
+  <data name="SubMenuCaja" xml:space="preserve">
+    <value>Caja</value>
+  </data>
+  <data name="SubMenuCarteraDeCheques" xml:space="preserve">
+    <value>Cartera de Cheques</value>
+  </data>
+  <data name="SubMenuCashFlow" xml:space="preserve">
+    <value>Cash Flow</value>
+  </data>
+  <data name="SubMenuCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="SubMenuCertificados" xml:space="preserve">
+    <value>Certificados</value>
+  </data>
+  <data name="SubMenuCheques/Extracciones" xml:space="preserve">
+    <value>Cheques/Extracciones</value>
+  </data>
+  <data name="SubMenuClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="SubMenuCobranzas" xml:space="preserve">
+    <value>Cobranzas</value>
+  </data>
+  <data name="SubMenuCompraDeMonedaExtranjera" xml:space="preserve">
+    <value>Compra de Moneda Extranjera</value>
+  </data>
+  <data name="SubMenuComprar" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="SubMenuCompras" xml:space="preserve">
+    <value>Compras</value>
+  </data>
+  <data name="SubMenuConsumos" xml:space="preserve">
+    <value>Consumos</value>
+  </data>
+  <data name="SubMenuControlDeGestion" xml:space="preserve">
+    <value>Control de Gestion</value>
+  </data>
+  <data name="SubMenuCostosIndirectos" xml:space="preserve">
+    <value>Costos Indirectos</value>
+  </data>
+  <data name="SubMenuCotizaciones" xml:space="preserve">
+    <value>Cotizaciones</value>
+  </data>
+  <data name="SubMenuCuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="SubMenuDebitosInternos" xml:space="preserve">
+    <value>Debitos Internos</value>
+  </data>
+  <data name="SubMenuDebitosVarios" xml:space="preserve">
+    <value>Debitos Varios</value>
+  </data>
+  <data name="SubMenuDepositar" xml:space="preserve">
+    <value>Depositar</value>
+  </data>
+  <data name="SubMenuDepositos" xml:space="preserve">
+    <value>Depositos</value>
+  </data>
+  <data name="SubMenuDeProveedores" xml:space="preserve">
+    <value>De Proveedores</value>
+  </data>
+  <data name="SubMenuEconomia" xml:space="preserve">
+    <value>Economia</value>
+  </data>
+  <data name="SubMenuEconomico" xml:space="preserve">
+    <value>Economico</value>
+  </data>
+  <data name="SubMenuEfectivo" xml:space="preserve">
+    <value>Efectivo</value>
+  </data>
+  <data name="SubMenuEmitirCheque" xml:space="preserve">
+    <value>Emitir Cheque</value>
+  </data>
+  <data name="SubMenuEmitirFactura" xml:space="preserve">
+    <value>Emitir Factura</value>
+  </data>
+  <data name="SubMenuEmitirRecibo" xml:space="preserve">
+    <value>Emitir Recibo</value>
+  </data>
+  <data name="SubMenuEmitirTransferencia" xml:space="preserve">
+    <value>Emitir Transferencia</value>
+  </data>
+  <data name="SubMenuEntidadesFinancieras" xml:space="preserve">
+    <value>Entidades Financieras</value>
+  </data>
+  <data name="SubMenuEspañol" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="SubMenuFacturacion" xml:space="preserve">
+    <value>Facturacion</value>
+  </data>
+  <data name="SubMenuFacturas" xml:space="preserve">
+    <value>Facturas</value>
+  </data>
+  <data name="SubMenuFideicomisosDeMonedaExtranjera" xml:space="preserve">
+    <value>Fideicomisos de Moneda Extranjera</value>
+  </data>
+  <data name="SubMenuFinanciero" xml:space="preserve">
+    <value>Financiero</value>
+  </data>
+  <data name="SubMenuGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="SubMenuGestion" xml:space="preserve">
+    <value>Gestion</value>
+  </data>
+  <data name="SubMenuImpuestos" xml:space="preserve">
+    <value>Impuestos</value>
+  </data>
+  <data name="SubMenuInformes" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="SubMenuInformesAnuales" xml:space="preserve">
+    <value>Informes Anuales</value>
+  </data>
+  <data name="SubMenuIngles" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="SubMenuIngresosBrutos" xml:space="preserve">
+    <value>Ingresos Brutos</value>
+  </data>
+  <data name="SubMenuIngresosYEgresosPorObra" xml:space="preserve">
+    <value>Ingresos y Egresos por Obra</value>
+  </data>
+  <data name="SubMenuInternos" xml:space="preserve">
+    <value>Internos</value>
+  </data>
+  <data name="SubMenuIva" xml:space="preserve">
+    <value>Iva</value>
+  </data>
+  <data name="SubMenuListar" xml:space="preserve">
+    <value>Listar</value>
+  </data>
+  <data name="SubMenuListarCheques" xml:space="preserve">
+    <value>Listar Cheques</value>
+  </data>
+  <data name="SubMenuListarCompras" xml:space="preserve">
+    <value>Listar Compras</value>
+  </data>
+  <data name="SubMenuListarDepositos" xml:space="preserve">
+    <value>Listar Depositos</value>
+  </data>
+  <data name="SubMenuListarFacturas" xml:space="preserve">
+    <value>Listar Facturas</value>
+  </data>
+  <data name="SubMenuListarRecibos" xml:space="preserve">
+    <value>Listar Recibos</value>
+  </data>
+  <data name="SubMenuListarTransferencias" xml:space="preserve">
+    <value>Listar Transferencias</value>
+  </data>
+  <data name="SubMenuListarVentas" xml:space="preserve">
+    <value>Listar Ventas</value>
+  </data>
+  <data name="SubMenuManoDeObra" xml:space="preserve">
+    <value>Mano de Obra</value>
+  </data>
+  <data name="SubMenuMateriales" xml:space="preserve">
+    <value>Materiales</value>
+  </data>
+  <data name="SubMenuModificarClave" xml:space="preserve">
+    <value>Modificar Clave</value>
+  </data>
+  <data name="SubMenuMonedaExtranjera" xml:space="preserve">
+    <value>Moneda Extranjera</value>
+  </data>
+  <data name="SubMenuMonedaLocal" xml:space="preserve">
+    <value>Moneda Local</value>
+  </data>
+  <data name="SubMenuMovimientoDeCaja" xml:space="preserve">
+    <value>Movimiento de Caja</value>
+  </data>
+  <data name="SubMenuMovimientoDeCuenta" xml:space="preserve">
+    <value>Movimiento de Cuenta</value>
+  </data>
+  <data name="SubMenuMovimientoDeProveedores" xml:space="preserve">
+    <value>Movimiento de Proveedores</value>
+  </data>
+  <data name="SubMenuMovimientoPorCliente" xml:space="preserve">
+    <value>Movimiento por Cliente</value>
+  </data>
+  <data name="SubMenuMovimientoPorObra" xml:space="preserve">
+    <value>Movimiento por Obra</value>
+  </data>
+  <data name="SubMenuNueva" xml:space="preserve">
+    <value>Nueva</value>
+  </data>
+  <data name="SubMenuObras" xml:space="preserve">
+    <value>Obras</value>
+  </data>
+  <data name="SubMenuOrdenesDeCompra" xml:space="preserve">
+    <value>Ordenes de Compra</value>
+  </data>
+  <data name="SubMenuOrdenesDePago" xml:space="preserve">
+    <value>Ordenes de Pago</value>
+  </data>
+  <data name="SubMenuPagos" xml:space="preserve">
+    <value>Pagos</value>
+  </data>
+  <data name="SubMenuPeriodosDeCaja" xml:space="preserve">
+    <value>Periodos de Caja</value>
+  </data>
+  <data name="SubMenuPlanillaDeCarga" xml:space="preserve">
+    <value>Planilla de Carga</value>
+  </data>
+  <data name="SubMenuPorCentroDeCosto" xml:space="preserve">
+    <value>Por Centro de Costo</value>
+  </data>
+  <data name="SubMenuPorCuenta" xml:space="preserve">
+    <value>Por Cuenta</value>
+  </data>
+  <data name="SubMenuPorObra" xml:space="preserve">
+    <value>Por Obra</value>
+  </data>
+  <data name="SubMenuPorSubCuenta" xml:space="preserve">
+    <value>Por Subcuenta</value>
+  </data>
+  <data name="SubMenuPosicionIva" xml:space="preserve">
+    <value>Posicion Iva</value>
+  </data>
+  <data name="SubMenuProduccion" xml:space="preserve">
+    <value>Produccion</value>
+  </data>
+  <data name="SubMenuProveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="SubMenuProyeccion" xml:space="preserve">
+    <value>Proyeccion</value>
+  </data>
+  <data name="SubMenuProyeccionGeneral" xml:space="preserve">
+    <value>Proyeccion General</value>
+  </data>
+  <data name="SubMenuProyeccionPorObra" xml:space="preserve">
+    <value>Proyeccion por Obra</value>
+  </data>
+  <data name="SubMenuProyectado-Real" xml:space="preserve">
+    <value>Proyectado - Real</value>
+  </data>
+  <data name="SubMenuProyectos" xml:space="preserve">
+    <value>Proyectos</value>
+  </data>
+  <data name="SubMenuReal" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="SubMenuRemitos" xml:space="preserve">
+    <value>Remitos</value>
+  </data>
+  <data name="SubMenuReporteEconomico" xml:space="preserve">
+    <value>Reporte Economico</value>
+  </data>
+  <data name="SubMenuResultadosPorObra" xml:space="preserve">
+    <value>Resultados por Obra</value>
+  </data>
+  <data name="SubMenuRetenciones" xml:space="preserve">
+    <value>Retenciones</value>
+  </data>
+  <data name="SubMenuSaldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="SubMenuSaldoDeBancos" xml:space="preserve">
+    <value>Saldo de Bancos</value>
+  </data>
+  <data name="SubMenuSaldos" xml:space="preserve">
+    <value>Saldos</value>
+  </data>
+  <data name="SubMenuSaldosDe..." xml:space="preserve">
+    <value>Saldos de ...</value>
+  </data>
+  <data name="SubMenuSalir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="SubMenuSituacionDeCompras" xml:space="preserve">
+    <value>Situacion de Compras</value>
+  </data>
+  <data name="SubMenuSituacionDeObra" xml:space="preserve">
+    <value>Situacion de Obra</value>
+  </data>
+  <data name="SubMenuSituacionDeVentas" xml:space="preserve">
+    <value>Situacion de Ventas</value>
+  </data>
+  <data name="SubMenuSubcontratos" xml:space="preserve">
+    <value>Subcontratos</value>
+  </data>
+  <data name="SubMenuTipoDeCambio" xml:space="preserve">
+    <value>Tipo de Cambio</value>
+  </data>
+  <data name="SubMenuTransferencias" xml:space="preserve">
+    <value>Transferencias</value>
+  </data>
+  <data name="SubMenuUsuarios" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="SubMenuValores" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="SubMenuVender" xml:space="preserve">
+    <value>Vender</value>
+  </data>
+  <data name="SubMenuVentaDeMonedaExtranjera" xml:space="preserve">
+    <value>Venta de Moneda Extranjera</value>
+  </data>
+</root>

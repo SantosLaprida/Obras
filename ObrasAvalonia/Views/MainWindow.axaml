@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:vm="using:ObrasAvalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:views="clr-namespace:ObrasAvalonia"
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ObrasAvalonia.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="ObrasAvalonia">
+	<DockPanel>
+		<views:TopMenu DockPanel.Dock="Top"/>
+		<Design.DataContext>
+			<!-- This only sets the DataContext for the previewer in an IDE,
+             to set the ac
+			 tual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+			<vm:MainWindowViewModel/>
+		</Design.DataContext>
+
+		<StackPanel>
+			<Grid Height="60" Background="Red">
+			</Grid>
+
+			<Grid Height="625">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto"/>
+					<ColumnDefinition Width="2"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,10,0">
+					<Button Content="Button" Width="75" Height="27" Margin="10,10,0,0"/>
+					<Button Content="Button" Width="75" Height="27" Margin="10,10,0,0"/>
+					<Button Content="Button" Width="75" Height="27" Margin="10,10,0,0"/>
+					<Button Content="Button" Width="75" Height="27" Margin="10,10,0,0"/>
+				</StackPanel>
+
+				<Rectangle Grid.Column="1" Fill="Black"/>
+
+			</Grid>
+			<Grid Height="60" Background="Red">
+
+			</Grid>
+		</StackPanel>
+	</DockPanel>
+</Window>
+	
+    
